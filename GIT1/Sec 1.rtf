@@ -1,0 +1,198 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fmodern\fprq1 Lucida Console;}{\f1\fnil\fcharset0 Calibri;}}
+{\colortbl ;\red0\green191\blue0;\red191\green0\blue191;\red191\green191\blue0;\red0\green191\blue191;\red191\green0\blue0;}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\f0\fs18\lang9\par
+\cf1 aravind@AravindKalyan \cf2 MINGW64 \cf3 ~/Desktop\par
+\cf0 $ mkdir assignments\par
+\par
+\cf1 aravind@AravindKalyan \cf2 MINGW64 \cf3 ~/Desktop\par
+\cf0 $ cd assignments\par
+\par
+\cf1 aravind@AravindKalyan \cf2 MINGW64 \cf3 ~/Desktop/assignments\par
+\cf0 $ git init\par
+Initialized empty Git repository in C:/Users/aravind/Desktop/assignments/.git/\par
+\par
+\cf1 aravind@AravindKalyan \cf2 MINGW64 \cf3 ~/Desktop/assignments\cf4  (master)\par
+\cf0 $ touch readme.txt\par
+\par
+\cf1 aravind@AravindKalyan \cf2 MINGW64 \cf3 ~/Desktop/assignments\cf4  (master)\par
+\cf0 $ git add readme.txt\par
+\par
+\cf1 aravind@AravindKalyan \cf2 MINGW64 \cf3 ~/Desktop/assignments\cf4  (master)\par
+\cf0 $ git commit -m "committing readme.txt"\par
+[master (root-commit) 8c18abc] committing readme.txt\par
+ 1 file changed, 0 insertions(+), 0 deletions(-)\par
+ create mode 100644 readme.txt\par
+\par
+\cf1 aravind@AravindKalyan \cf2 MINGW64 \cf3 ~/Desktop/assignments\cf4  (master)\par
+\cf0 $ git status\par
+On branch master\par
+nothing to commit, working tree clean\par
+\par
+\cf1 aravind@AravindKalyan \cf2 MINGW64 \cf3 ~/Desktop/assignments\cf4  (master)\par
+\cf0 $ git branch html-assignments\par
+\par
+\cf1 aravind@AravindKalyan \cf2 MINGW64 \cf3 ~/Desktop/assignments\cf4  (master)\par
+\cf0 $ git checkout html-assignments\par
+Switched to branch 'html-assignments'\par
+\par
+\cf1 aravind@AravindKalyan \cf2 MINGW64 \cf3 ~/Desktop/assignments\cf4  (html-assignments)\par
+\cf0 $ git branch\par
+\cf1 aravind@AravindKalyan \cf2 MINGW64 \cf3 ~/Desktop/assignments\cf4  (master)\par
+\cf0 $ git checkout html-assignments\par
+Switched to branch 'html-assignments'\par
+\par
+\cf1 aravind@AravindKalyan \cf2 MINGW64 \cf3 ~/Desktop/assignments\cf4  (html-assignments)\par
+\cf0 $ git branch\par
+* \cf1 html-assignments\par
+\cf0   master\par
+\par
+\cf1 aravind@AravindKalyan \cf2 MINGW64 \cf3 ~/Desktop/assignments\cf4  (html-assignments)\par
+\cf0 $ git status\par
+On branch html-assignments\par
+Untracked files:\par
+  (use "git add <file>..." to include in what will be committed)\par
+        \cf5 info.txt\par
+\par
+\cf0 nothing added to commit but untracked files present (use "git add" to track)\par
+\par
+\cf1 aravind@AravindKalyan \cf2 MINGW64 \cf3 ~/Desktop/assignments\cf4  (html-assignments)\par
+\cf0 $ git add info.txt\par
+warning: LF will be replaced by CRLF in info.txt.\par
+The file will have its original line endings in your working directory\par
+\par
+\cf1 aravind@AravindKalyan \cf2 MINGW64 \cf3 ~/Desktop/assignments\cf4  (html-assignments)\par
+\cf0 $ git status\par
+On branch html-assignments\par
+Changes to be committed:\par
+  (use "git restore --staged <file>..." to unstage)\par
+        \cf1 new file:   info.txt\par
+\par
+\par
+aravind@AravindKalyan \cf2 MINGW64 \cf3 ~/Desktop/assignments\cf4  (html-assignments)\par
+\cf0 $ git commit -m "committing info.txt"\par
+[html-assignments 394f6e6] committing info.txt\par
+ 1 file changed, 1 insertion(+)\par
+ create mode 100644 info.txt\par
+\par
+\cf1 aravind@AravindKalyan \cf2 MINGW64 \cf3 ~/Desktop/assignments\cf4  (html-assignments)\par
+\cf0 $ git add info.txt\par
+\par
+\cf1 aravind@AravindKalyan \cf2 MINGW64 \cf3 ~/Desktop/assignments\cf4  (html-assignments)\par
+\cf0 $ git status\par
+On branch html-assignments\par
+nothing to commit, working tree clean\par
+\par
+\cf1 aravind@AravindKalyan \cf2 MINGW64 \cf3 ~/Desktop/assignments\cf4  (html-assignments)\par
+\cf0 $ vi info.txt\par
+\par
+\cf1 aravind@AravindKalyan \cf2 MINGW64 \cf3 ~/Desktop/assignments\cf4  (html-assignments)\par
+\cf0 $ git add info.txt\par
+warning: LF will be replaced by CRLF in info.txt.\par
+The file will have its original line endings in your working directory\par
+\par
+\cf1 aravind@AravindKalyan \cf2 MINGW64 \cf3 ~/Desktop/assignments\cf4  (html-assignments)\par
+\cf0 $ git status\par
+On branch html-assignments\par
+Changes to be committed:\par
+  (use "git restore --staged <file>..." to unstage)\par
+        \cf1 modified:   info.txt\par
+\par
+\par
+aravind@AravindKalyan \cf2 MINGW64 \cf3 ~/Desktop/assignments\cf4  (html-assignments)\par
+\cf0 $ git commit -m "updating info.txt"\par
+[html-assignments ce695bf] updating info.txt\par
+ 1 file changed, 1 insertion(+), 1 deletion(-)\par
+\par
+\cf1 aravind@AravindKalyan \cf2 MINGW64 \cf3 ~/Desktop/assignments\cf4  (html-assignments)\par
+\cf0 $ git branch\par
+* \cf1 html-assignments\par
+\cf0   master\par
+\par
+\cf1 aravind@AravindKalyan \cf2 MINGW64 \cf3 ~/Desktop/assignments\cf4  (html-assignments)\par
+\cf0 $ git checkout master\par
+Switched to branch 'master'\par
+\par
+\cf1 aravind@AravindKalyan \cf2 MINGW64 \cf3 ~/Desktop/assignments\cf4  (master)\par
+\cf0 $ git status\par
+On branch master\par
+nothing to commit, working tree clean\par
+\par
+\cf1 aravind@AravindKalyan \cf2 MINGW64 \cf3 ~/Desktop/assignments\cf4  (master)\par
+\cf0 $ vi readme.txt\par
+\par
+\cf1 aravind@AravindKalyan \cf2 MINGW64 \cf3 ~/Desktop/assignments\cf4  (master)\par
+\cf0 $ git status\par
+On branch master\par
+Changes not staged for commit:\par
+  (use "git add <file>..." to update what will be committed)\par
+  (use "git restore <file>..." to discard changes in working directory)\par
+        \cf5 modified:   readme.txt\par
+\par
+\cf0 no changes added to commit (use "git add" and/or "git commit -a")\par
+\par
+\cf1 aravind@AravindKalyan \cf2 MINGW64 \cf3 ~/Desktop/assignments\cf4  (master)\par
+\cf0 $ git add readme.txt\par
+warning: LF will be replaced by CRLF in readme.txt.\par
+The file will have its original line endings in your working directory\par
+\par
+\cf1 aravind@AravindKalyan \cf2 MINGW64 \cf3 ~/Desktop/assignments\cf4  (master)\par
+\cf0 $ git status\par
+On branch master\par
+Changes to be committed:\par
+  (use "git restore --staged <file>..." to unstage)\par
+        \cf1 modified:   readme.txt\par
+\par
+\par
+aravind@AravindKalyan \cf2 MINGW64 \cf3 ~/Desktop/assignments\cf4  (master)\par
+\cf0 $ git add readme.txt\par
+\par
+\cf1 aravind@AravindKalyan \cf2 MINGW64 \cf3 ~/Desktop/assignments\cf4  (master)\par
+\cf0 $ git commit -m "updating"\par
+[master 9288b0c] updating\par
+ 1 file changed, 1 insertion(+)\par
+\par
+\cf1 aravind@AravindKalyan \cf2 MINGW64 \cf3 ~/Desktop/assignments\cf4  (master)\par
+\cf0 $ git checkout html-assignments\par
+Switched to branch 'html-assignments'\par
+\par
+\cf1 aravind@AravindKalyan \cf2 MINGW64 \cf3 ~/Desktop/assignments\cf4  (html-assignments)\par
+\cf0 $ git add info.txt\par
+\par
+\cf1 aravind@AravindKalyan \cf2 MINGW64 \cf3 ~/Desktop/assignments\cf4  (html-assignments)\par
+\cf0 $ git commit -m "Committing and updating info.txt"\par
+On branch html-assignments\par
+nothing to commit, working tree clean\par
+\par
+\cf1 aravind@AravindKalyan \cf2 MINGW64 \cf3 ~/Desktop/assignments\cf4  (html-assignments)\par
+\cf0 $ vi info.txt\par
+\par
+\cf1 aravind@AravindKalyan \cf2 MINGW64 \cf3 ~/Desktop/assignments\cf4  (html-assignments)\par
+\cf0 $ git add info.txt\par
+\par
+\cf1 aravind@AravindKalyan \cf2 MINGW64 \cf3 ~/Desktop/assignments\cf4  (html-assignments)\par
+\cf0 $ git commit -m "Committing and updating info.txt"\par
+[html-assignments fe59001] Committing and updating info.txt\par
+ 1 file changed, 1 insertion(+), 1 deletion(-)\par
+\par
+\cf1 aravind@AravindKalyan \cf2 MINGW64 \cf3 ~/Desktop/assignments\cf4  (html-assignments)\par
+\cf0 $ git checkout master\par
+Switched to branch 'master'\par
+\par
+\cf1 aravind@AravindKalyan \cf2 MINGW64 \cf3 ~/Desktop/assignments\cf4  (master)\par
+\cf0 $ git merge html assignments\par
+merge: html - not something we can merge\par
+\par
+\cf1 aravind@AravindKalyan \cf2 MINGW64 \cf3 ~/Desktop/assignments\cf4  (master)\par
+\cf0 $ git merge html-assignments\par
+Merge made by the 'recursive' strategy.\par
+ info.txt | 1 \cf1 +\par
+\cf0  1 file changed, 1 insertion(+)\par
+ create mode 100644 info.txt\par
+\par
+\cf1 aravind@AravindKalyan \cf2 MINGW64 \cf3 ~/Desktop/assignments\cf4  (master)\par
+\cf0 $ git branch -d html-assignments\par
+Deleted branch html-assignments (was fe59001).\par
+\f1\fs22\par
+}
+ 
